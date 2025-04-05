@@ -1,0 +1,24 @@
+{
+  "name": "droplet-task-cypress",
+  "version": "1.0.0",
+  "description": "Tech Task for droplet interview",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "e2e": "cypress open",
+    "test:chrome": "cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasPaling23/droplet-task-cypress.git"
+  },
+  "author": "Lukas Paling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukasPaling23/droplet-task-cypress/issues"
+  },
+  "homepage": "https://github.com/LukasPaling23/droplet-task-cypress#readme",
+  "devDependencies": {
+    "cypress": "^14.2.1"
+  }
+}
