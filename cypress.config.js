@@ -5,5 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
     },
     baseUrl: 'https://openferry.com',
+    watchForFileChanges: false,
+    defaultCommandTimeout: 30000,
   },
 });
